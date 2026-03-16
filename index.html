@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ish clock — Support</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: #0a0808;
+  color: #c8c0b8;
+  line-height: 1.8;
+  padding: 0;
+}
+
+.hero {
+  background: linear-gradient(135deg, #060418, #302048);
+  padding: 80px 24px 60px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  color: #e8e0d8;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(200,192,216,0.45);
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(200,192,216,0.4);
+  margin-bottom: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(200,192,216,0.08);
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #e8e0d8;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+p {
+  font-size: 14px;
+  color: rgba(200,192,216,0.65);
+  margin-bottom: 12px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 14px;
+  color: rgba(200,192,216,0.65);
+  padding: 6px 0;
+  padding-left: 16px;
+  position: relative;
+}
+
+ul li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: rgba(200,192,216,0.3);
+}
+
+a {
+  color: rgba(200,192,216,0.6);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 28px;
+  border: 1px solid rgba(200,192,216,0.2);
+  border-radius: 8px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(200,192,216,0.6);
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.contact-btn:hover {
+  border-color: rgba(200,192,216,0.4);
+  color: rgba(200,192,216,0.9);
+}
+
+footer {
+  text-align: center;
+  padding: 40px 24px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: rgba(200,192,216,0.2);
+  border-top: 1px solid rgba(200,192,216,0.06);
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>ish clock</h1>
+  <p>Time, the ish way.</p>
+</div>
+
+<div class="container">
+
+  <!-- About -->
+  <section>
+    <h2>About</h2>
+    <p>
+      ish clock shows you the time the way you actually talk about it.
+      Not 7:04. Just 7-ish.
+    </p>
+    <p>
+      Time is displayed in 20-minute intervals —
+      close enough to know where you are,
+      vague enough to breathe.
+    </p>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <h2>FAQ</h2>
+
+    <h3>How does the time display work?</h3>
+    <p>
+      ish clock shows time in three patterns based on the minute:
+    </p>
+    <ul>
+      <li>0–19 minutes → "7-ish"</li>
+      <li>20–39 minutes → "half past 7-ish"</li>
+      <li>40–59 minutes → "8-ish"</li>
+    </ul>
+
+    <h3>What is ish nudge?</h3>
+    <p>
+      ish nudge is a gentle alarm that rings within a 14-minute window
+      around your chosen time. Set it for "7-ish" and it will nudge you
+      somewhere between 6:53 and 7:07.
+    </p>
+
+    <h3>What does Pro include?</h3>
+    <ul>
+      <li>3 additional fonts (Cormorant, Caveat, and more)</li>
+      <li>5 gradient mood packs (Aurora, Monochrome, Tropic, Sakura, Neon)</li>
+      <li>Up to 5 nudges</li>
+      <li>Weekend mode — precise time on weekdays, ish on weekends</li>
+    </ul>
+
+    <h3>How do I cancel my subscription?</h3>
+    <p>
+      You can cancel anytime through iPhone Settings →
+      Apple ID → Subscriptions → ish clock.
+    </p>
+
+    <h3>How do I restore my purchase?</h3>
+    <p>
+      Open ish clock, swipe right to open the Pro screen,
+      and tap "Restore purchase".
+    </p>
+
+    <h3>How do I add the widget?</h3>
+    <p>
+      Long press your home screen or lock screen,
+      tap the "+" button, and search for "ish clock".
+    </p>
+
+    <h3>Does ish clock work with Apple Watch?</h3>
+    <p>
+      Yes. Open the ish clock app on your Apple Watch
+      to see the time, the ish way.
+      You can also add a complication to your watch face.
+    </p>
+  </section>
+
+  <!-- Privacy Policy -->
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p>Last updated: March 2026</p>
+
+    <h3>Overview</h3>
+    <p>
+      ish clock does not collect, store, or share your personal data.
+      The app works entirely on your device.
+    </p>
+
+    <h3>Information We Do Not Collect</h3>
+    <ul>
+      <li>Personal identifiers (name, email, phone number)</li>
+      <li>Location data</li>
+      <li>Contacts or photos</li>
+      <li>Usage analytics or behavior tracking</li>
+    </ul>
+
+    <h3>In-App Purchases</h3>
+    <p>
+      Pro subscriptions are processed through Apple's App Store.
+      We use RevenueCat to manage subscription status on your device.
+      RevenueCat assigns an anonymous ID — no personal data is associated with it.
+    </p>
+    <ul>
+      <li>
+        Apple Privacy Policy:
+        <a href="https://www.apple.com/privacy/">apple.com/privacy</a>
+      </li>
+      <li>
+        RevenueCat Privacy Policy:
+        <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>
+      </li>
+    </ul>
+
+    <h3>Data Storage</h3>
+    <p>
+      All preferences (gradient, font, nudge settings) are stored
+      locally on your device and never leave it.
+    </p>
+
+    <h3>Children's Privacy</h3>
+    <p>
+      ish clock does not collect any information from anyone,
+      including children under 13.
+      The app contains no advertising and no social features.
+    </p>
+
+    <h3>Changes to This Policy</h3>
+    <p>
+      Any changes will be reflected in the "Last updated" date above.
+      Continued use of the app constitutes acceptance of the updated policy.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Have a question or feedback?
+      We'd love to hear from you.
+    </p>
+    <a href="mailto:torizousui@gmail.com" class="contact-btn">
+      Contact Us
+    </a>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 ish clock · All rights reserved
+</footer>
+
+</body>
+</html>
